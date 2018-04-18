@@ -204,4 +204,11 @@ footer > .container > .row {
 .about_logo {
     width: 500px;
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
 }
