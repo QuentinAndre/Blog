@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Numb and Numbers - Updates</title><link href="https://quentinandre.github.io/Blog/" rel="alternate"></link><link href="https://quentinandre.github.io/Blog/feeds/updates.atom.xml" rel="self"></link><id>https://quentinandre.github.io/Blog/</id><updated>2018-04-12T00:00:00+02:00</updated><entry><title>New Version of DistributionBuilder</title><link href="https://quentinandre.github.io/Blog/distributionbuilder-v11.html" rel="alternate"></link><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><author><name>Quentin André</name></author><id>tag:quentinandre.github.io,2018-04-12:/Blog/distributionbuilder-v11.html</id><summary type="html">&lt;p&gt;The version 1.1 of DistributionBuilder has been released!&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have posted a minor update of DistributionBuilder on GitHub. It implements some cosmetic improvement to the
+DistributionBuilder, and prevents a potential bug in more complicated use cases of the library. If you had downloaded
+the library, I invite you to update your current version. If you were using the link to the library, the code has been
+automatically updated, and you can still use the library as you used to!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed changelog&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The width of the distribution builder is now automatically adjusted
+using CSS &lt;code&gt;flexbox&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The argument &lt;code&gt;resize&lt;/code&gt; of &lt;code&gt;DistributionBuilder.render()&lt;/code&gt; will be
+deprecated in future versions. For compatibility reasons, using the
+&lt;code&gt;resize&lt;/code&gt; argument does not raise an error, but it no longer affects the
+behavior of the distribution builder.&lt;/li&gt;
+&lt;li&gt;Changed the HTML structure: the &lt;code&gt;&amp;lt;div class="cell"&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; now
+includes an inner &lt;code&gt;&amp;lt;div class="ball"&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;. The appearance of the "balls" in
+the distribution builder can now be changed more easily.&lt;/li&gt;
+&lt;li&gt;The method &lt;code&gt;getDistribution()&lt;/code&gt; now returns a copy of the current allocation. This is to avoid accidental side-effects.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="DistributionBuilder"></category></entry></feed>
