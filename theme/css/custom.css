@@ -212,3 +212,9 @@ footer > .container > .row {
     float: right;
     margin: 0;
 }
+
+.about_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
